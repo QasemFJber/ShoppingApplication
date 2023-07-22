@@ -101,5 +101,5 @@
 
     //indicator color
     <color name="inactive">#C4C4C4</color>
-    <color name="active">#0B35AB</color>
+    <color name="active">#00C569</color>
 </resources>
