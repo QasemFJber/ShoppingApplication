@@ -7,6 +7,10 @@ android {
     namespace 'com.example.shoppingapplication'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.shoppingapplication"
         minSdk 24
@@ -33,6 +37,8 @@ android {
 }
 
 dependencies {
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
